@@ -4,6 +4,7 @@ function formatMoney(value){
     return '$' + value
 }
 
+
 function update() {
     let bill = Number(document.getElementById('yourBill').value)
     let tipPercent = document.getElementById('tipInput').value
